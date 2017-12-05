@@ -1,0 +1,18 @@
+[09-Nov-2015 19:39:22 UTC] PHP Parse error:  syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/afcss_template/app/View/Users/login.ctp on line 134
+[09-Nov-2015 19:39:22 UTC] PHP Stack trace:
+[09-Nov-2015 19:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/afcss_template/app/webroot/index.php:0
+[09-Nov-2015 19:39:22 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/afcss_template/app/webroot/index.php:118
+[09-Nov-2015 19:39:22 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/afcss_template/lib/Cake/Routing/Dispatcher.php:167
+[09-Nov-2015 19:39:22 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/afcss_template/lib/Cake/Routing/Dispatcher.php:200
+[09-Nov-2015 19:39:22 UTC] PHP   5. View->render() /home/ubuntu/workspace/afcss_template/lib/Cake/Controller/Controller.php:960
+[09-Nov-2015 19:39:22 UTC] PHP   6. View->_render() /home/ubuntu/workspace/afcss_template/lib/Cake/View/View.php:473
+[09-Nov-2015 19:39:22 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/afcss_template/lib/Cake/View/View.php:923
+[30-Nov-2015 01:19:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cpanel/app/View/AdmiModulos/index.ctp on line 31
+[30-Nov-2015 01:19:34 UTC] PHP Stack trace:
+[30-Nov-2015 01:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cpanel/app/webroot/index.php:0
+[30-Nov-2015 01:19:34 UTC] PHP   2. Dispatcher->dispatch($request = *uninitialized*, $response = *uninitialized*, $additionalParams = *uninitialized*) /home/ubuntu/workspace/cpanel/app/webroot/index.php:118
+[30-Nov-2015 01:19:34 UTC] PHP   3. Dispatcher->_invoke($controller = *uninitialized*, $request = *uninitialized*) /home/ubuntu/workspace/cpanel/lib/Cake/Routing/Dispatcher.php:167
+[30-Nov-2015 01:19:34 UTC] PHP   4. Controller->render($view = *uninitialized*, $layout = *uninitialized*) /home/ubuntu/workspace/cpanel/lib/Cake/Routing/Dispatcher.php:200
+[30-Nov-2015 01:19:34 UTC] PHP   5. View->render($view = *uninitialized*, $layout = *uninitialized*) /home/ubuntu/workspace/cpanel/lib/Cake/Controller/Controller.php:960
+[30-Nov-2015 01:19:34 UTC] PHP   6. View->_render($viewFile = *uninitialized*, $data = *uninitialized*) /home/ubuntu/workspace/cpanel/lib/Cake/View/View.php:473
+[30-Nov-2015 01:19:34 UTC] PHP   7. View->_evaluate($viewFile = *uninitialized*, $dataForView = *uninitialized*) /home/ubuntu/workspace/cpanel/lib/Cake/View/View.php:923

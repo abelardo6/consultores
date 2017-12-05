@@ -31,4 +31,14 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+  
+  /* Bloque que define por dónde viene la petición  */
+	public function beforeFilter() {
+        if ($this->request->is('ajax')) {
+            $this->layout = 'ajax';
+        } else {
+            $this->layout = 'default';
+        }
+    }
+
 }

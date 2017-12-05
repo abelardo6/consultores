@@ -1,0 +1,22 @@
+/*.alert{
+  margin-top: 7%;
+  visibility:hidden;
+  left: 30%;
+  right: 30%;
+  z-index: 2000;  
+  position:fixed;
+
+
+}*/
+.error-message{
+color: tomato;
+margin-left: 15px; 
+}
+
+.form-actions {
+	text-align: center;
+	
+}
+
+
+
